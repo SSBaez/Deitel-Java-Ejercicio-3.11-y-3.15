@@ -5,7 +5,6 @@ public class Cuenta {
 	private String nombre;
 	private double saldo;
 	
-	
 	//Constructor
 	public Cuenta(String nombre, double saldo){
 		
@@ -26,7 +25,7 @@ public class Cuenta {
 			this.saldo = saldo - montoRetiro;
 		}
 		else if(montoRetiro > saldo){
-			System.out.println("El monto a retirar excede el saldo de la cuenta\n");
+			System.out.println("===El monto a retirar excede el saldo de la cuenta===\n");
 		}
 		else{
 			System.out.println("===Valor invalido===\n");
